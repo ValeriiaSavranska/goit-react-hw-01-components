@@ -1,0 +1,35 @@
+.transaction {
+  min-width: 595px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(199, 196, 196, 0.727);
+}
+
+.thead {
+  background-color: rgb(138, 138, 138);
+  font-size: 24px;
+}
+
+.th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 10px;
+}
+
+.tr:nth-child(odd) {
+  background-color: rgb(189, 189, 189);
+}
+
+.tr:nth-child(even) {
+  background-color: rgb(158, 156, 156);
+}
+
+.td {
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
